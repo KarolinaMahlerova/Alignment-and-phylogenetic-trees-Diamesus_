@@ -1,0 +1,139 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=37;
+	taxlabels
+	Dendroxena_quadrimaculata[&!name="Dendroxena quadrimaculata"]
+	Dendroxena_sexcarinata[&!name="Dendroxena sexcarinata"]
+	Diamesus_bimaculatus_139[&!name="Diamesus bimaculatus (a)"]
+	Diamesus_bimaculatus_140[&!name="Diamesus bimaculatus (c)"]
+	Diamesus_bimaculatus_77[&!name="Diamesus bimaculatus (b)"]
+	Diamesus_osculans_01[&!name="Diamesus osculans (Philippines)"]
+	Diamesus_osculans_120[&!name="Diamesus osculans (P.N. Guinea)"]
+	Diamesus_osculans_133[&!name="Diamesus osculans (Malaysia)(a)"]
+	Diamesus_osculans_AB[&!name="Diamesus osculans (Malaysia)(b)"]
+	Diamesus_osculans_JQ[&!name="Diamesus osculans (Australia)"]
+	Diamesus_osculans_NC[&!name="Diamesus osculans (China)"]
+	Diamesus_osculans_TW_[&!name="Diamesus osculans (Taiwan)"]
+	Eusilpha_jakowlewi[&!name="Eusilpha jakowlewi"]
+	Hadesia_asamo[&!name="Hadesia asamo"]
+	Necrodes_littoralis[&!name="Necrodes littoralis (Japan)"]
+	Necrodes_littoralis_40[&!name="Necrodes littoralis (Greece)"]
+	Necrodes_nigricornis[&!name="Necrodes nigricornis"]
+	Necrodes_surinamensis[&!name="Necrodes surinamensis"]
+	Necrophila_japonica[&!name="Necrophila japonica"]
+	Nicrophorus_concolor[&!name="Nicrophorus concolor"]
+	Nicrophorus_japonicus[&!name="Nicrophorus japonicus"]
+	Nicrophorus_maculifrons[&!name="Nicrophorus maculifrons"]
+	Oiceoptoma_nigropunctatum[&!name="Oiceoptoma nigropunctatum"]
+	Oiceoptoma_subrufum[&!name="Oiceoptoma subrufum"]
+	Oiceoptoma_thoracicum[&!name="Oiceoptoma thoracicum"]
+	Oxelytrum_cayennense[&!name="Oxelytrum cayennense"]
+	Oxelytrum_discicolle[&!name="Oxelytrum discicolle"]
+	Phosphuga_atrata[&!name="Phosphuga atrata (Japan)"]
+	Phosphuga_atrata_101[&!name="Phosphuga atrata (N. Ireland)"]
+	Ptomaphila_lacrymosa[&!name="Ptomaphila lacrymosa"]
+	Ptomaphila_perlata[&!name="Ptomaphila perlata"]
+	Silpha_longicornis[&!name="Silpha longicornis"]
+	Silpha_obscura[&!name="Silpha obscura"]
+	Silpha_perforata[&!name="Silpha perforata"]
+	Silpha_tristis[&!name="Silpha tristis"]
+	Thanatophilus_rugosus[&!name="Thanatophilus rugosus"]
+	Thanatophilus_sinuatus[&!name="Thanatophilus sinuatus"]
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Hadesia_asamo[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.40822701,length_median=1.129369,length_95%HPD={0.5359513,3.002904},!rotate=false]:1.129369,(((((((Dendroxena_quadrimaculata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0605237198,length_median=0.04843115,length_95%HPD={0.01969933,0.1333596}]:0.048431,Dendroxena_sexcarinata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0618020206,length_median=0.04964401,length_95%HPD={0.01964733,0.1367886}]:0.049644)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0345757747,length_median=0.02782981,length_95%HPD={0.00668148,0.07872838}]:0.02783,((((Silpha_longicornis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0618554364,length_median=0.04936697,length_95%HPD={0.01988735,0.1391108}]:0.049367,Silpha_perforata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0696743635,length_median=0.05545856,length_95%HPD={0.02323872,0.1555636}]:0.055459)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0439722739,length_median=0.03514044,length_95%HPD={0.01243819,0.1013209}]:0.03514,Silpha_obscura[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0861709284,length_median=0.06871004,length_95%HPD={0.03052748,0.1901694}]:0.06871)[&prob=0.847220371,prob_stddev=0.00433634341,prob_range={0.844154113,0.850286628},prob(percent)="85",prob+-sd="85+-0",length_mean=0.0179013295,length_median=0.01411307,length_95%HPD={3.616569E-4,0.04375986}]:0.014113,Silpha_tristis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0976201554,length_median=0.07798429,length_95%HPD={0.03427039,0.2131646}]:0.077984)[&prob=0.999866684,prob_stddev=1.8853667E-4,prob_range={0.999733369,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0232818847,length_median=0.01842629,length_95%HPD={0.002884104,0.05701149}]:0.018426,(Phosphuga_atrata_101[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00882034097,length_median=0.006898665,length_95%HPD={9.157688E-4,0.02191866}]:0.006899,Phosphuga_atrata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00789557022,length_median=0.006162053,length_95%HPD={6.589276E-4,0.01976006}]:0.006162)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0980388189,length_median=0.07892185,length_95%HPD={0.03426698,0.211205}]:0.078922)[&prob=0.823090255,prob_stddev=0.00358219673,prob_range={0.820557259,0.82562325},prob(percent)="82",prob+-sd="82+-0",length_mean=0.0145684814,length_median=0.01138779,length_95%HPD={2.495319E-6,0.03632574}]:0.011388)[&prob=0.958338888,prob_stddev=0.00518475843,prob_range={0.95467271,0.962005066},prob(percent)="96",prob+-sd="96+-1",length_mean=0.0287022689,length_median=0.02294324,length_95%HPD={0.004157237,0.0678813}]:0.022943,(Eusilpha_jakowlewi[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0446342314,length_median=0.0358603,length_95%HPD={0.012368,0.09989069}]:0.03586,Necrophila_japonica[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.042475299,length_median=0.03394046,length_95%HPD={0.01048556,0.09626326}]:0.03394)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0870547593,length_median=0.06995023,length_95%HPD={0.029426,0.1907223}]:0.06995)[&prob=0.97420344,prob_stddev=9.4268335E-5,prob_range={0.974136782,0.974270097},prob(percent)="97",prob+-sd="97+-0",length_mean=0.0268825882,length_median=0.02137127,length_95%HPD={0.003118726,0.06446742}]:0.021371,((Oiceoptoma_nigropunctatum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0427411255,length_median=0.03411741,length_95%HPD={0.01147067,0.09741431}]:0.034117,Oiceoptoma_subrufum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0371033188,length_median=0.02977163,length_95%HPD={0.008781557,0.08404993}]:0.029772)[&prob=0.883148913,prob_stddev=8.48415015E-4,prob_range={0.882548993,0.883748833},prob(percent)="88",prob+-sd="88+-0",length_mean=0.0223471318,length_median=0.01763183,length_95%HPD={0.002551057,0.05304448}]:0.017632,Oiceoptoma_thoracicum[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.095034879,length_median=0.07609686,length_95%HPD={0.03420064,0.2116792}]:0.076097)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0582431669,length_median=0.04673692,length_95%HPD={0.01490553,0.1310486}]:0.046737)[&prob=0.999666711,prob_stddev=9.4268335E-5,prob_range={0.999600053,0.999733369},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0349745478,length_median=0.0277497,length_95%HPD={0.00584898,0.08224378}]:0.02775,(((Necrodes_littoralis_40[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00295683502,length_median=0.001947314,length_95%HPD={1.358164E-7,0.008939434}]:0.001947,Necrodes_littoralis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0063006378,length_median=0.004818155,length_95%HPD={1.44529E-5,0.01620665}]:0.004818)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.106674303,length_median=0.08555157,length_95%HPD={0.03531185,0.2306868}]:0.085552,(Necrodes_surinamensis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0467564071,length_median=0.03742076,length_95%HPD={0.01072542,0.1052196}]:0.037421,Necrodes_nigricornis[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0430598303,length_median=0.03432881,length_95%HPD={0.01005716,0.09956807}]:0.034329)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0708508447,length_median=0.05673495,length_95%HPD={0.01961493,0.1598987}]:0.056735)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0493431552,length_median=0.03983414,length_95%HPD={0.0125775,0.1113676}]:0.039834,((Diamesus_osculans_TW_[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00289200026,length_median=0.002004716,length_95%HPD={8.685585E-7,0.008359929}]:0.002005,((((Diamesus_osculans_01[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.010557859,length_median=0.008299314,length_95%HPD={0.001603394,0.02502393}]:0.008299,Diamesus_osculans_120[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00258623356,length_median=0.001830329,length_95%HPD={7.310375E-6,0.007277767}]:0.00183)[&prob=0.547860285,prob_stddev=0.0112179319,prob_range={0.53992801,0.555792561},prob(percent)="55",prob+-sd="55+-1",length_mean=0.0021443874,length_median=0.001433836,length_95%HPD={2.672596E-8,0.006535815}]:0.001434,(Diamesus_osculans_JQ[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00610298786,length_median=0.004728871,length_95%HPD={5.375259E-4,0.01528124}]:0.004729,Diamesus_osculans_NC[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.002409823,length_median=0.001491372,length_95%HPD={6.156601E-7,0.007639784}]:0.001491)[&prob=0.945740568,prob_stddev=9.4268335E-4,prob_range={0.94507399,0.946407146},prob(percent)="95",prob+-sd="95+-0",length_mean=0.00385506546,length_median=0.002882835,length_95%HPD={1.398759E-4,0.01024075}]:0.002883)[&prob=0.667377683,prob_stddev=0.0128204936,prob_range={0.658312225,0.676443141},prob(percent)="67",prob+-sd="67+-1",length_mean=0.0022848866,length_median=0.001612067,length_95%HPD={1.774243E-6,0.006724408}]:0.001612,Diamesus_osculans_AB[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00250675414,length_median=0.001758409,length_95%HPD={1.288639E-8,0.007281785}]:0.001758)[&prob=0.800826556,prob_stddev=0.00169683003,prob_range={0.799626716,0.802026396},prob(percent)="80",prob+-sd="80+-0",length_mean=0.0143862241,length_median=0.01085086,length_95%HPD={4.539344E-6,0.04049916}]:0.010851,Diamesus_osculans_133[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00313827194,length_median=0.002191956,length_95%HPD={2.679287E-7,0.008902531}]:0.002192)[&prob=0.925476603,prob_stddev=1.8853667E-4,prob_range={0.925343288,0.925609919},prob(percent)="93",prob+-sd="93+-0",length_mean=0.0178125444,length_median=0.01446649,length_95%HPD={3.082383E-6,0.04597362}]:0.014466)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0599922143,length_median=0.04791614,length_95%HPD={0.01743884,0.1323504}]:0.047916,(Diamesus_bimaculatus_77[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00480259105,length_median=0.00360331,length_95%HPD={2.213869E-4,0.01288466}]:0.003603,Diamesus_bimaculatus_139[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00135109771,length_median=7.871614E-4,length_95%HPD={1.281696E-7,0.004425771}]:7.87E-4,Diamesus_bimaculatus_140[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00130376718,length_median=7.808249E-4,length_95%HPD={2.227902E-8,0.004251427}]:7.81E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0643758679,length_median=0.05168921,length_95%HPD={0.02085672,0.1445411}]:0.051689)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0799159267,length_median=0.06440322,length_95%HPD={0.02474131,0.1771451}]:0.064403)[&prob=0.941741101,prob_stddev=0.0139517136,prob_range={0.93187575,0.951606452},prob(percent)="94",prob+-sd="94+-1",length_mean=0.0355355043,length_median=0.02820486,length_95%HPD={0.006390953,0.08373911}]:0.028205)[&prob=0.669444074,prob_stddev=0.0114064685,prob_range={0.661378483,0.677509665},prob(percent)="67",prob+-sd="67+-1",length_mean=0.0196715214,length_median=0.01541949,length_95%HPD={8.164493E-6,0.0503137}]:0.015419,(Thanatophilus_sinuatus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0765856006,length_median=0.06123573,length_95%HPD={0.02446305,0.1683157}]:0.061236,Thanatophilus_rugosus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.109194499,length_median=0.08763844,length_95%HPD={0.04032331,0.2375639}]:0.087638)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0611706715,length_median=0.0493628,length_95%HPD={0.01585895,0.1342205}]:0.049363)[&prob=0.987934942,prob_stddev=0.00292231839,prob_range={0.985868551,0.990001333},prob(percent)="99",prob+-sd="99+-0",length_mean=0.0475966989,length_median=0.03791353,length_95%HPD={0.00568206,0.1177969}]:0.037914,((Oxelytrum_cayennense[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0655539957,length_median=0.05217409,length_95%HPD={0.02115208,0.1494313}]:0.052174,Oxelytrum_discicolle[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0243938339,length_median=0.01931892,length_95%HPD={0.001953944,0.05868501}]:0.019319)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.100159625,length_median=0.07989663,length_95%HPD={0.03231285,0.2214086}]:0.079897,(Ptomaphila_lacrymosa[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0794357348,length_median=0.0637944,length_95%HPD={0.02536813,0.1780543}]:0.063794,Ptomaphila_perlata[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.116533885,length_median=0.0926298,length_95%HPD={0.04025814,0.2573539}]:0.09263)[&prob=0.999933342,prob_stddev=9.4268335E-5,prob_range={0.999866684,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0383230401,length_median=0.03061708,length_95%HPD={0.006048414,0.09024466}]:0.030617)[&prob=0.999733369,prob_stddev=0.0,prob_range={0.999733369,0.999733369},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0643594081,length_median=0.05109427,length_95%HPD={0.01097386,0.1548628}]:0.051094)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.194451172,length_median=0.1559568,length_95%HPD={0.04557438,0.4413795}]:0.155957,(Nicrophorus_concolor[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.144777522,length_median=0.1159115,length_95%HPD={0.04796501,0.3212614}]:0.115912,Nicrophorus_maculifrons[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.111319799,length_median=0.08892468,length_95%HPD={0.02922608,0.2499045}]:0.088925,Nicrophorus_japonicus[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0969782443,length_median=0.07810152,length_95%HPD={0.02006231,0.223235}]:0.078102)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.640120944,length_median=0.5111139,length_95%HPD={0.2375567,1.373981}]:0.511114);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="length_mean";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="length_95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=19;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

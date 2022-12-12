@@ -1,0 +1,77 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat Dec 10 15:10:48 2022]
+[!
+>Data file = MP_Dimaesus_after_rev.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 10000
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 1707
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1707 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        1019 characters are constant (proportion = 0.596954)
+>        153 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 535
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>    No more than 100 trees of score (length) greater than or equal to 1 will be saved in each replicate
+>  Initial 'Maxtrees' setting = 600 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  10000 bootstrap replicates completed
+>  Time used = 28:17:47 (CPU time = 06:01:26.0)
+]
+	Translate
+		1 Dendroxena_quadrimaculata,
+		2 Dendroxena_sexcarinata,
+		3 Silpha_longicornis,
+		4 Silpha_perforata,
+		5 Silpha_tristis,
+		6 Silpha_obscura,
+		7 Phosphuga_atrata_101,
+		8 Phosphuga_atrata,
+		9 Eusilpha_jakowlewi,
+		10 Necrophila_japonica,
+		11 Oiceoptoma_nigropunctatum,
+		12 Oiceoptoma_subrufum,
+		13 Oiceoptoma_thoracicum,
+		14 Thanatophilus_sinuatus,
+		15 Thanatophilus_rugosus,
+		16 Necrodes_littoralis_40,
+		17 Necrodes_littoralis,
+		18 Necrodes_surinamensis,
+		19 Necrodes_nigricornis,
+		20 Diamesus_osculans_TW,
+		21 Diamesus_osculans_01,
+		22 Diamesus_osculans_120,
+		23 Diamesus_osculans_AB,
+		24 Diamesus_osculans_JQ,
+		25 Diamesus_osculans_NC,
+		26 Diamesus_osculans_133,
+		27 Diamesus_bimaculatus_77,
+		28 Diamesus_bimaculatus_139,
+		29 Diamesus_bimaculatus_140,
+		30 Oxelytrum_cayennense,
+		31 Oxelytrum_discicolle,
+		32 Ptomaphila_lacrymosa,
+		33 Ptomaphila_perlata,
+		34 Nicrophorus_concolor,
+		35 Nicrophorus_maculifrons,
+		36 Nicrophorus_japonicus,
+		37 Hadesia_asamo
+		;
+tree 'PAUP_1' = [&U] (1,2,(((3,4)96.527,5)50.604,6,(7,8)100,((9,10)100,((11,12)78.697,13)99.826,((14,15)99.305,(((16,17)100,(18,19)99.554)69.331,((20,21,22,23,24,25,26)99.986,(27,(28,29)50.934)100)99.973)53.905,(((30,31)100,(32,33)97.906)94.028,(((34,35)61.064,36)100,37)100)72.066)61.474)52.914)92.292)100;
+End;
